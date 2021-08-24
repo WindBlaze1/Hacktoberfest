@@ -1,0 +1,133 @@
+
+
+.containert{
+    width: 100%;
+    /* height: 100%; */
+    height: 500px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    
+}
+.first-two, .second-two{
+    display: flex;
+}
+.imagebox{
+    position: relative;
+    width: 300px;
+    height: 320px;
+    overflow: hidden;
+    margin: 19px;
+    box-shadow: 5px 5px 15px rgb(51, 49, 49);
+    
+}
+.imagebox img{
+    height: 100%;
+    width: 100%;
+
+}
+.imagebox::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: -100%;
+    background-color:rgba(0 ,0 ,0, 0.7);
+    height: 100%;
+    width: 0%;
+    transform: skew(-40deg);
+    transition: all 0.8s;
+
+}
+.imagebox:hover::before{
+    left: -50%;
+    width: 210%;
+}
+.contentt{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    font-family: 'Urbanist', sans-serif;
+
+}
+.imagebox:hover .contentt{
+    transition: 0.5s;
+    opacity: 1;
+
+}
+.contentt h1{
+    text-align: center;
+    text-transform: uppercase;
+    color:rgb(238, 255, 0);
+
+}
+.contentt h2{
+    color: white;
+    text-decoration: overline;
+    font-family: 'Urbanist', sans-serif;
+}
+.contentt ul{
+    display: flex;
+   list-style: none;
+
+}
+.contentt ul li{
+    margin: 15px 10px;
+}
+.contentt ul li a{
+    text-decoration: none;
+    
+}
+.contentt ul li a i{
+    color: black;
+    font-size: 22px;
+    height: 50px;
+    line-height: 50px;
+    width:50px ;
+    background-color: rgba(209, 209, 21, 0.849);
+    border-radius: 50%;
+    text-align: center;
+    transform: translateY(250px) ;
+    
+}
+.imagebox:hover .contentt ul li:nth-child(1) a i{
+    transform: translateY(0px) ;
+    transition: all 0.5s 0.3s;
+
+}
+.imagebox:hover .contentt ul li:nth-child(2) a i{
+    transform: translateY(0px) ;
+    transition: all 0.4s 0.4s;
+
+}
+.imagebox>span{
+    color: black;
+}
+
+@media only screen and (max-width:1239px) {
+    .containert{
+        flex-direction: column;
+        /* height: 800px; */
+        justify-content: space-around;
+    }
+    .first-two, .second-two{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+@media only screen and (max-width:629px){
+    .first-two, .second-two{
+        flex-direction: column;
+    }
+    .containert{
+        height:1400px;
+    }
+}

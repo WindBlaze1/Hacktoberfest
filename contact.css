@@ -24,7 +24,7 @@ section::before {
   position: absolute;
   top: 0;
   left: 0;
-  width: 50%;
+  width: 55%;
   height: 100%;
   /* background-color: #fff38e; */
   background-color: rgba(23, 28, 20, 255);

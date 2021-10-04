@@ -185,7 +185,7 @@ body{
   }
   #hero:before {
 	content: "";
-	background: rgba(255, 255, 255, 0.6);
+	background: #eb629699;
 	position: absolute;
 	bottom: 0;
 	top: 0;

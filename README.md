@@ -13,10 +13,8 @@
 
 # Getting Started
 
-### ***All the projects selected for NJACK Winter of Code 2020 are listed [here](https://njackwinterofcode.github.io/projects.html).***
 
-This repo is to help newbies get started with Open Source. The objective of this tutorial is to make your first Pull Request and add your name to the [contributors](contributors/) folder. If you get stuck, ask your doubt on the [NWoC Gitter Channel](https://gitter.im/NJACKWinterOfCode/NWoC2020).
-
+This repo is to help newbies get started with Open Source. The objective of this tutorial is to make your first Pull Request.
 ## Setting up softwares
 
 To work on Github hosted projects, one has to use Git - a Version Control System. So the first task is to install git on your machine. For Windows users, download git from here - https://git-scm.com/downloads. For Linux users, you can use your distro's package manager to install git.

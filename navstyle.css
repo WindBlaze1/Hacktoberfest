@@ -11,8 +11,9 @@ body{
 
 /*----------multi-level-accordian-menu------------*/
 .navbar-logo{
-	padding: 15px;
-	color: #fff;
+	padding: 18px;
+	color: rgb(155, 50, 50);
+	border-radius: 35px;
 }
 .navbar-mainbg{
 	background-color: rgba(23,28,40,255);
@@ -264,7 +265,7 @@ body{
 	animation-fill-mode: both;
 	animation-iteration-count: 1;
 	display: inline-block;
-	color:  rgb(30, 92, 236);
+	color:  rgb(236, 222, 30);
 	font-size: 60px;
 	font-family: 'Rampart One', cursive;
   }

@@ -20,8 +20,8 @@ body {
   padding: 50px;
   color: rgba(23, 28, 40, 255);
   font-family: "Inter", sans-serif;
-  transition: all 0.2s;
-  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+  font-weight: 700;
   border-radius: 20px;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 .plan-heading {
-  font-size: 25px;
+  font-size: 45px;
 }
 
 .plan-feature {
@@ -43,7 +43,7 @@ body {
 
 .plan-feature li:before {
   content: "✓";
-  margin-right: 16px;
+  margin-right: 12px;
 }
 
 .plan-feature li {
@@ -54,11 +54,11 @@ body {
 
 .plan-choose {
   width: 90%;
-  background: #8645ff;
-  border-radius: 8px;
+  background: #0e55da;
+  border-radius: 15px;
   border: none;
   color: white;
-  font-size: 20px;
+  font-size: 25px;
   padding: 12px;
   font-weight: bold;
 }
@@ -67,6 +67,7 @@ body {
   display: flex;
   justify-content: center;
   padding-bottom: 20px;
+  font-size: x-large;
 }
 
 .plan-options {

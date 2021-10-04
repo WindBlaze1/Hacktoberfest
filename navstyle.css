@@ -186,7 +186,7 @@ body{
   }
   #hero:before {
 	content: "";
-	background: #eb629699;
+	background: #00000099;
 	position: absolute;
 	bottom: 0;
 	top: 0;

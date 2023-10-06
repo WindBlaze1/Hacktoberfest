@@ -20,7 +20,7 @@ body {
   height: 100vh;
   top: 0;
   left: 0;
-  background-color: #353535;
+  background-color: #696969;
   overflow: hidden;
   z-index: 1000;
   transition: opacity 0.5s 0.4s;
